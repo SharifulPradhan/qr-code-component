@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -14,7 +17,7 @@ body {
   text-align: center;
   border-radius: 1em;
   box-shadow: 0px 9px 21px 3px rgba(123,135,157,0.75);
-  padding: 1em;
+  padding: .8em;
   width: 20em;
   background: hsl(0, 0%, 100%);
 }
@@ -25,7 +28,6 @@ body {
 }
 
 .card-text {
-  
   padding: 0 1.2em;
 }
 
